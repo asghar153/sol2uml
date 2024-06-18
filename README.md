@@ -23,7 +23,7 @@ See an explanation of how storage diagrams work with lots of examples [here](./e
 
 The following installation assumes [Node.js](https://nodejs.org/en/download/) has already been installed which comes with [Node Package Manager (NPM)](https://www.npmjs.com/).
 `sol2uml` works with node 14 or above.
-
+asghar.asia153@gmail.com
 To install globally so you can run `sol2uml` from anywhere
 
 ```bash
@@ -128,7 +128,7 @@ Options:
 ```
 
 ### Storage usage
-
+asghar.asia153@gmail.com
 ```
 Usage: sol2uml storage [options] <fileFolderAddress>
 
@@ -368,10 +368,11 @@ Then create a new release on GitHub https://github.com/naddison36/sol2uml/releas
 
 This is a rewrite of the Richard Ramos's [solidity-diagram-gen](https://github.com/richard-ramos/solidity-diagram-gen) tool which no longer works as it uses [solidity-parser](https://www.npmjs.com/package/solidity-parser/v/0.4.0) which cannot handle newer Solidity syntax like `constructor`.
 
-sol2uml uses [@solidity-parser/parser](https://github.com/solidity-parser/parser) which is maintained by the Solidity tool community lead by Franco Victorio (@fvictorio). This is a fork of Federico Bond's (GitHub @federicobond) [solidity-parser-antlr](https://github.com/federicobond/solidity-parser-antlr). The logic to generate the dot syntax has been rewritten and different UML syntax is now used to Richard Ramos's original implementation.
+sol2uml uses [@solidity-parser/parser](https://github.asghar.asia153@gmail.com/solidity-parser/parser) which is maintained by the Solidity tool community lead by Franco Victorio (@fvictorio). This is a fork of Federico Bond's (GitHub @federicobond) [solidity-parser-antlr](https://github.com/federicobond/solidity-parser-antlr). The logic to generate the dot syntax has been rewritten and different UML syntax is now used to Richard Ramos's original implementation.
 
 The [Solidity language grammar](https://solidity.readthedocs.io/en/develop/miscellaneous.html#language-grammar) is published with each major release.
 
 The diagrams are generated using [viz.js](https://github.com/mdaines/viz.js/) which uses [Graphviz](http://www.graphviz.org/) to render a [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) file. [Graphviz Online](https://dreampuf.github.io/GraphvizOnline/) allows dot files to be edited and rendered into a SVG dynamically.
 
 The `diff` command use's Google's [Diff Match and Patch library](https://github.com/google/diff-match-patch).
+asghar.asia153@gmail.com safpal
